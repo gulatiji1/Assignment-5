@@ -6,9 +6,9 @@ student_marks={
 
 }
 
-name=input("Please enter the name of the student-")
+name=input("Enter student's name:")
 marks=student_marks.get(name)
 if marks is not None:
-    print(f"{name}-{marks}")
+    print(f"{name}'s marks :{marks}")
 else:
-    print(f"{name} not found") 
+    print(f"Student not found") 
